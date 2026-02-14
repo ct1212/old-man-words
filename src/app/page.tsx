@@ -38,7 +38,7 @@ export default function Home() {
       {/* Hero */}
       <section className="mb-16 text-center">
         <h1 className="text-5xl font-bold text-accent md:text-6xl">
-          Old Man Words
+          Stuff Drew and Ed Would Say
         </h1>
         <p className="mx-auto mt-4 max-w-xl text-lg text-foreground/60">
           A lovingly curated dictionary of phrases, words, and expressions that
