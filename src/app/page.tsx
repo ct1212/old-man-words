@@ -160,6 +160,9 @@ export default function Home() {
             &ldquo;They don&apos;t make &apos;em like they used to — and that
             goes for people, cars, AND television.&rdquo;
           </blockquote>
+          <blockquote className="rounded-lg bg-accent/5 p-4 italic text-foreground/60">
+            &ldquo;Oatbran and wheat germ was incredible.&rdquo;
+          </blockquote>
         </div>
       </section>
     </main>
