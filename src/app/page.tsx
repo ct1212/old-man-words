@@ -163,6 +163,9 @@ export default function Home() {
           <blockquote className="rounded-lg bg-accent/5 p-4 italic text-foreground/60">
             &ldquo;Oatbran and wheat germ was incredible.&rdquo;
           </blockquote>
+          <blockquote className="rounded-lg bg-accent/5 p-4 italic text-foreground/60">
+            &ldquo;We drank prune juice out the ass.&rdquo;
+          </blockquote>
         </div>
       </section>
     </main>
