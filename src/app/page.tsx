@@ -138,10 +138,27 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Old Man Wisdom */}
-      <section className="rounded-2xl border-2 border-accent-light bg-card-bg p-8">
+      {/* Featured Old Man Wisdom */}
+      <section className="rounded-2xl border-2 border-accent bg-card-bg p-8">
         <h2 className="mb-6 text-center text-2xl font-bold text-accent">
-          Old Man Wisdom
+          Featured Old Man Wisdom
+        </h2>
+        <div className="grid gap-6 md:grid-cols-2">
+          <blockquote className="rounded-lg bg-accent/10 p-5 italic text-foreground/70 border-l-4 border-accent">
+            &ldquo;Oatbran and wheat germ was incredible.&rdquo;
+            <footer className="mt-2 text-sm text-accent not-italic font-medium">— Drew</footer>
+          </blockquote>
+          <blockquote className="rounded-lg bg-accent/10 p-5 italic text-foreground/70 border-l-4 border-accent">
+            &ldquo;We drank prune juice out the ass.&rdquo;
+            <footer className="mt-2 text-sm text-accent not-italic font-medium">— Drew</footer>
+          </blockquote>
+        </div>
+      </section>
+
+      {/* More Old Man Wisdom */}
+      <section className="mt-8 rounded-2xl border-2 border-accent-light bg-card-bg p-8">
+        <h2 className="mb-6 text-center text-2xl font-bold text-accent">
+          More Old Man Wisdom
         </h2>
         <div className="grid gap-6 md:grid-cols-2">
           <blockquote className="rounded-lg bg-accent/5 p-4 italic text-foreground/60">
@@ -159,12 +176,6 @@ export default function Home() {
           <blockquote className="rounded-lg bg-accent/5 p-4 italic text-foreground/60">
             &ldquo;They don&apos;t make &apos;em like they used to — and that
             goes for people, cars, AND television.&rdquo;
-          </blockquote>
-          <blockquote className="rounded-lg bg-accent/5 p-4 italic text-foreground/60">
-            &ldquo;Oatbran and wheat germ was incredible.&rdquo;
-          </blockquote>
-          <blockquote className="rounded-lg bg-accent/5 p-4 italic text-foreground/60">
-            &ldquo;We drank prune juice out the ass.&rdquo;
           </blockquote>
         </div>
       </section>
