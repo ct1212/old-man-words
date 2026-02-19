@@ -75,6 +75,10 @@ export default function Home() {
             &ldquo;We drank prune juice out the ass.&rdquo;
             <footer className="mt-2 text-sm text-accent not-italic font-medium">— Drew</footer>
           </blockquote>
+          <blockquote className="rounded-lg bg-accent/10 p-5 italic text-foreground/70 border-l-4 border-accent md:col-span-2">
+            &ldquo;Which way you headed baseball boobs?&rdquo;
+            <footer className="mt-2 text-sm text-accent not-italic font-medium">— Drew</footer>
+          </blockquote>
         </div>
       </section>
 
